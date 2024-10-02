@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        ul{
+            padding:10px;
+            display:flex;
+            gap:40px
+        }
+        ul li{
+            display: inline-block;
+            gap:40px;
+        
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 0;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvYo1oCUAZ69FDfkyLd443mV_X3UHBUaGgPA&s'); 
+            background-size: cover; 
+            background-position: center; 
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 2em;
+        }
+        
+        .hero button {
+            padding: 20px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: rgb(68, 60, 60);
+            border: none;
+            cursor: pointer;
+        }
+        
+        .hero button:hover {
+            background-color: #555;
+        }
+        .introduction {
+            background-image: url('https://burst.shopifycdn.com/photos/skyscrapers-looking-up.jpg?width=1000&format=pjpg&exif=0&iptc=0'); 
+            background-size: cover; 
+            background-position: center;
+            text-align: center;
+        }
+        
+        /* Mission and Values Section */
+        .mission-values {
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .mission-values ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .mission-values ul li {
+            padding: 10px 0;
+        }
+        
+        /* Company History Section */
+        .history {
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        /* Team Section */
+        .team {
+            padding: 50px 0;
+        }
+        
+        .team-grid {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        
+        .team-member img {
+            background-image: url("https://img.freepik.com/free-photo/smiling-young-male-professional-standing-with-arms-crossed-while-making-eye-contact-against-isolated-background_662251-838.jpg");
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        .team-member h3 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        
+        .team-member p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Introduction Section -->
+    <section class="introduction">
+        <div class="container">
+            <h1>About Our Company</h1>
+            <p>We are dedicated to providing the best solutions to our clients and strive for excellence in everything we do.</p>
+        </div>
+
+    <!-- Mission and Values Section -->
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>Our mission is to create innovative solutions that drive success for our customers and make a positive impact on the world.</p>
+
+            <h2>Our Values</h2>
+            <ul>
+                <li>Integrity - We believe in doing the right thing.</li>
+                <li>Innovation - We embrace creativity and forward-thinking.</li>
+                <li>Customer-Centricity - We put our customers at the heart of everything we do.</li>
+            </ul>
+        </div>
+
+    <!-- Company History Section -->
+        <div class="container">
+            <h2>Our History</h2>
+            <p>Founded in 2010, our company has grown from a small startup to a leader in our industry. We continue to evolve and adapt to meet the changing needs of our customers.</p>
+        </div>
+        </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <div class="container">
+            <h2>Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    
+                    <h3>John</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <h3>Thomas</h3>
+                    <p>Chief Technology Officer</p>
+                </div>
+                <div class="team-member">
+                    <h3>Mahashri Vaishnavi</h3>
+                    <p>Chief Marketing Officer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

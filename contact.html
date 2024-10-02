@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="p.css">
+</head>
+<body>
+    <style>
+        .contact {
+            padding: 50px 0;
+        }
+        
+        .contact h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+        
+        .contact-form {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: #333;
+        }
+        
+        button[type="submit"]{
+            padding: 10px 20px;
+            color: white;
+            background-color: #262222;
+            border: none;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #555;
+        }
+        
+        /* Additional Contact Information */
+        .additional-contact-info {
+            text-align: center;
+        }
+        
+        .additional-contact-info h2 {
+            font-size: 1.5em;
+        }
+        
+        .social-media {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .social-media li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        
+        .social-media a {
+            text-decoration: none;
+            color: #333;
+        }
+        
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+    
+    <section class="contact">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Use the form below or find other ways to get in touch.</p>
+
+            
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            
+            
+            <div class="additional-contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> contact@success.com</p>
+                <p><strong>Phone:</strong> (123) 4444-567890</p>
+                <p><strong>Address:</strong> 123 Business St., City, State, ZIP</p>
+
+                <h2>Follow Us</h2>
+                <ul class="social-media">
+                    <li><a href="https://facebook.com/yourcompany" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/yourcompany" target="_blank">Twitter</a></li>
+                    <li><a href="https://instagram.com/yourcompany" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
